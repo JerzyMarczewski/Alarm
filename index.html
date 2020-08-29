@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarmin...</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Alarm</h1>
+        <h1 class="clock"></h1>
+        <div class="slider-container">
+            <p class="time-info-hours">hours : 0</p>
+            <input type="range" min="0" max="23" value="0" class="slider">
+            <p class="time-info-minutes">minutes : 0</p>
+            <input type="range" min="0" max="59" value="0" class="slider">
+        </div>
+        <button class="btn">Add alarm</button>
+        <div class="alarms-container"></div>
+    </div>
+</body>
+</html>
